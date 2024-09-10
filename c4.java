@@ -1,5 +1,10 @@
 class Rensyu {
   public static void main(String[] args) {
-    System.out.println(456 + "÷" + 123 + '=' + (456/123));
+    int i;
+    String dot = "*";
+    for (i = 0; i < 10 ; i++) {
+      System.out.println(dot);
+      dot = dot + "*";
+    }
   }
 }
